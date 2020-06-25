@@ -1,25 +1,58 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useState, useEffect} from 'react';
+
+import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
+
+import FoodMenu from './menu-food/FoodMenu';
+import DrinkMenu from './menu-drink/DrinkMenu';
+import WinesMenu from './menu-wines/WinesMenu';
+
 import './App.css';
 
-function App() {
+
+
+
+
+function App(props) {
+
+  // const [isMenuOpen, setIsMenuOpen] = useState(false);
+ 
+
+  // useEffect(() => props.history.listen(() => {
+  //   setIsMenuOpen(false);
+  // }));
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <div className='container-logo-dad'></div>
+        <header className='menu-header'>
+          <ul className='menu-list'>
+            <li>
+              <Link className='link-navbar' to='/'>Food</Link>
+            </li>
+            <li>
+              <Link className='link-navbar' to='/drinks'>Drinks</Link>
+            </li>
+            <li>
+              <Link className='link-navbar' to='/wines'>Wines</Link>
+            </li>
+          </ul>
+          <div>
+            <Switch>
+              <Route exact path='/' component={FoodMenu}/>
+              <Route exact path='/drinks' component={DrinkMenu}/>
+              <Route exact path='/wines' component={WinesMenu}/>
+            </Switch>
+          </div>
+        </header>
+        
+        {/* <div className="App-content">
+          <FoodMenu />
+        </div> */}
+      </div>
+    </Router>
   );
 }
 

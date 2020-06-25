@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+.App-content {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -35,4 +35,166 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container-menu-food {
+  height: 100%;
+  width: 100%;
+}
+
+.menu {
+  background-image: url('./assets/images/img1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 64vh;
+  width: 100%;
+  border-bottom: 0.5px solid black;
+}
+
+/* IMG FOR THE FOOD */
+#first-menu {
+  background-image: url('./assets/images/img1.png');
+}
+
+#second-menu {
+  background-image: url('./assets/images/IMG2.png');
+}
+
+#third-menu {
+  background-image: url('./assets/images/IMG3.png');
+}
+
+#forth-menu {
+  background-image: url('./assets/images/IMG4.png');
+}
+
+#fifth-menu {
+  background-image: url('./assets/images/IMG5.png');
+}
+
+#sixth-menu {
+  background-image: url('./assets/images/IMG6.png');
+}
+
+.menu-header {
+  background-color: black;
+  height: 10vh;
+}
+
+.menu-list {
+  justify-content: space-evenly;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  padding: 0;
+  align-items: center;
+}
+
+.link-navbar {
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+  font-family: 'Nothing You Could Do', cursive;
+}
+
+.link-navbar:hover {
+  cursor: pointer;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: whitesmoke;
+  border-bottom: 0.5px solid white;
+}
+
+.container-logo-dad {
+  background-image: url(./assets/images/logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 20vh;
+}
+
+/* IMG FOR THE FOOD */
+#first-menu {
+  background-image: url('./assets/images/FOOD/FOOD1.png');
+  margin-top: 20px;
+}
+
+#second-menu {
+  background-image: url('./assets/images/FOOD/FOOD2.png');
+}
+
+#third-menu {
+  background-image: url('./assets/images/FOOD/FOOD3.png');
+}
+
+#forth-menu {
+  background-image: url('./assets/images/FOOD/FOOD4.png');
+  border-bottom: none !important;
+}
+
+#fifth-menu {
+  background-image: url('./assets/images/FOOD/FOOD5.png');
+}
+
+#sixth-menu {
+  background-image: url('./assets/images/FOOD/FOOD6.png');
+}
+
+/* IMG FOR THE WINES */
+#first-wine {
+  background-image: url('./assets/images/WINES/WINE1.png');
+  margin-top: 15px;
+}
+
+
+#second-wine {
+  background-image: url('./assets/images/WINES/WINE2.png');
+}
+
+#third-wine {
+  background-image: url('./assets/images/WINES/WINE3.png');
+}
+
+
+/* IMG FOR THE DRINKS */
+#first-drinks {
+  background-image: url('./assets/images/GINTONIC/AGGIN.png');
+} 
+
+#second-drinks {
+  background-image: url('./assets/images/COCKTAILS/COCKTAILS1.png');
+}
+
+#third-drinks {
+  background-image: url('./assets/images/COCKTAILS/COCKTAILS2.png');
+}
+
+#forth-drinks {
+  background-image: url('./assets/images/COCKTAILS/COCKTAILS3.png');
+}
+
+#fifth-drinks {
+  background-image: url('./assets/images/SOFTSETALCOOL/SOFTETALCOOL1.png');
+  border-bottom: none !important;
+}
+
+#sixth-drinks {
+  background-image: url('./assets/images/SOFTSETALCOOL/SOFTETALCOOL2.png');
+  border-bottom: none !important;
+}
+
+#seventh-drinks {
+  background-image: url('./assets/images/SOFTSETALCOOL/SOFTETALCOOL3.png');
+  border-bottom: none !important;
+}
+
+#eighth-drinks {
+  background-image: url('./assets/images/SOFTSETALCOOL/SOFTETALCOOL4.png');
+  border-bottom: none !important;
+}
+
+#ninth-drinks {
+  background-image: url('./assets/images/SOFTSETALCOOL/SOFTETALCOOL5.png');
+  border-bottom: none !important;
 }
