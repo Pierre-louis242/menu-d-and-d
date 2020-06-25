@@ -1,3 +1,15 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+body {
+  height: 100vh;
+  background-color: black;
+}
+
 .App {
   text-align: center;
 }
@@ -60,13 +72,22 @@
   }
 }
 
+.container-logo-dad {
+  background-color: white;
+  background-image: url(./assets/images/logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 20vh;
+}
+
 .container-menu-food {
   height: 100%;
   width: 100%;
 }
 
 .menu {
-  background-image: url('./assets/images/img1.png');
+  background-color: white;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -135,18 +156,11 @@
   border-bottom: 0.5px solid white;
 }
 
-.container-logo-dad {
-  background-image: url(./assets/images/logo.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 20vh;
-}
 
 /* IMG FOR THE FOOD */
 #first-menu {
   background-image: url('./assets/images/FOOD/FOOD1.png');
-  margin-top: 20px;
+  padding-top: 20px;
 }
 
 #second-menu {
@@ -173,7 +187,7 @@
 /* IMG FOR THE WINES */
 #first-wine {
   background-image: url('./assets/images/WINES/WINE1.png');
-  margin-top: 15px;
+  padding-top: 15px;
 }
 
 
