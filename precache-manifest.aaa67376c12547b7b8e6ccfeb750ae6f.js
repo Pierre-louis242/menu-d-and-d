@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a35553e1a39b39615cdb8836351af23b",
+    "revision": "5505591ce3a8b9372eb5aca441de9367",
     "url": "/menu-d-and-d/index.html"
   },
   {
-    "revision": "78802772d54ee52dbc10",
-    "url": "/menu-d-and-d/static/css/main.4c90527e.chunk.css"
+    "revision": "8a9cc49f7db39d8d8696",
+    "url": "/menu-d-and-d/static/css/main.b8696700.chunk.css"
   },
   {
     "revision": "636bb72d7c9bde084da6",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/menu-d-and-d/static/js/2.d3470634.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "78802772d54ee52dbc10",
-    "url": "/menu-d-and-d/static/js/main.c7b90d38.chunk.js"
+    "revision": "8a9cc49f7db39d8d8696",
+    "url": "/menu-d-and-d/static/js/main.d9bc0016.chunk.js"
   },
   {
     "revision": "ccd38cac2ad68f128752",
@@ -28,16 +28,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/menu-d-and-d/static/media/AGGIN.d5c757c2.png"
   },
   {
-    "revision": "5d2d902cab0100e298c89a97d0619a56",
-    "url": "/menu-d-and-d/static/media/COCKTAILS1.5d2d902c.png"
+    "revision": "43c7eb6e40d94ea31557fb834c7e7444",
+    "url": "/menu-d-and-d/static/media/COCKTAILS1.43c7eb6e.png"
   },
   {
-    "revision": "49d9c729d0bf94bb8501078b59abb21e",
-    "url": "/menu-d-and-d/static/media/COCKTAILS2.49d9c729.png"
+    "revision": "8f5fc78ac1fc91e015054f82945d4340",
+    "url": "/menu-d-and-d/static/media/COCKTAILS2.8f5fc78a.png"
   },
   {
-    "revision": "da1c859249249f975a99461c6312d80d",
-    "url": "/menu-d-and-d/static/media/COCKTAILS3.da1c8592.png"
+    "revision": "541772e0d44c5fef89c3835d674ea27c",
+    "url": "/menu-d-and-d/static/media/COCKTAILS3.541772e0.png"
+  },
+  {
+    "revision": "fd11b6944dffd261532ff3ed7a04f853",
+    "url": "/menu-d-and-d/static/media/COCKTAILS4.fd11b694.png"
   },
   {
     "revision": "4faf0e6ed8bdf7b079cb5204f9842c1b",
@@ -82,6 +86,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "dd57dc96f7897adf9bad44f2b3d85202",
     "url": "/menu-d-and-d/static/media/IMG6.dd57dc96.png"
+  },
+  {
+    "revision": "7bbe7a9e0b893fa6ef1d291157e5bc0a",
+    "url": "/menu-d-and-d/static/media/MOCKTAILS.7bbe7a9e.png"
+  },
+  {
+    "revision": "f14bbcaa41f426cb371980d57f26f299",
+    "url": "/menu-d-and-d/static/media/SEP1.f14bbcaa.png"
+  },
+  {
+    "revision": "be0f0622893c95035588434f472d51e1",
+    "url": "/menu-d-and-d/static/media/SEP2.be0f0622.png"
+  },
+  {
+    "revision": "2865e5a7bdaa96ba265141c37e7139d5",
+    "url": "/menu-d-and-d/static/media/SHOOTER.2865e5a7.png"
   },
   {
     "revision": "20e29ebf8535a6044a2de32018825fa7",
