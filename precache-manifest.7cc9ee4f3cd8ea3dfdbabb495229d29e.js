@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c741dbeadbc87321d623c48bba99ee20",
+    "revision": "a35553e1a39b39615cdb8836351af23b",
     "url": "/menu-d-and-d/index.html"
   },
   {
-    "revision": "2acc989c73983f54e5a8",
-    "url": "/menu-d-and-d/static/css/main.cb1520e7.chunk.css"
+    "revision": "78802772d54ee52dbc10",
+    "url": "/menu-d-and-d/static/css/main.4c90527e.chunk.css"
   },
   {
     "revision": "636bb72d7c9bde084da6",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/menu-d-and-d/static/js/2.d3470634.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2acc989c73983f54e5a8",
+    "revision": "78802772d54ee52dbc10",
     "url": "/menu-d-and-d/static/js/main.c7b90d38.chunk.js"
   },
   {
@@ -104,12 +104,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/menu-d-and-d/static/media/SOFTETALCOOL5.f60864d7.png"
   },
   {
-    "revision": "48e903f8abfc70abe8cec4914f573d8c",
-    "url": "/menu-d-and-d/static/media/WINE1.48e903f8.png"
+    "revision": "8b89443b4aef038d36088467be7b3bf5",
+    "url": "/menu-d-and-d/static/media/WINE1.8b89443b.png"
   },
   {
-    "revision": "466e439d4fc1f95305a7e830715d73da",
-    "url": "/menu-d-and-d/static/media/WINE2.466e439d.png"
+    "revision": "26f6a9a6fdf4cd0304227da06762848e",
+    "url": "/menu-d-and-d/static/media/WINE2.26f6a9a6.png"
   },
   {
     "revision": "f814e344eba07932c1efb46e6491bcea",
