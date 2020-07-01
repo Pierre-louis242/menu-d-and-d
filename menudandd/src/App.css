@@ -218,26 +218,48 @@ body {
 }
 
 #fifth-drinks {
+  background-image: url('./assets/images/COCKTAILS/COCKTAILS4.png');
+}
+
+#sixth-drinks {
+  background-image: url('./assets/images/MOCKTAILS/MOCKTAILS.png');
+}
+
+#seventh-drinks {
+  background-image: url('./assets/images/SHOOTER/SHOOTER.png');
+}
+
+#eighth-drinks {
   background-image: url('./assets/images/SOFTSETALCOOL/SOFTETALCOOL1.png');
   border-bottom: none !important;
 }
 
-#sixth-drinks {
+#ninth-drinks {
   background-image: url('./assets/images/SOFTSETALCOOL/SOFTETALCOOL2.png');
   border-bottom: none !important;
 }
 
-#seventh-drinks {
+#tenth-drinks {
   background-image: url('./assets/images/SOFTSETALCOOL/SOFTETALCOOL3.png');
   border-bottom: none !important;
 }
 
-#eighth-drinks {
+#eleventh-drinks {
   background-image: url('./assets/images/SOFTSETALCOOL/SOFTETALCOOL4.png');
   border-bottom: none !important;
 }
 
-#ninth-drinks {
+#twelveth-drinks {
   background-image: url('./assets/images/SOFTSETALCOOL/SOFTETALCOOL5.png');
+  border-bottom: none !important;
+}
+
+#separation-cocktail {
+  background-image: url('./assets/images/SEPARATION_CATEGORY/SEP1.png');
+  border-bottom: none !important;
+}
+
+#separation-soft {
+  background-image: url('./assets/images/SEPARATION_CATEGORY/SEP2.png');
   border-bottom: none !important;
 }
