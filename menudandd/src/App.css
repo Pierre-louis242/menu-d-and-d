@@ -111,6 +111,8 @@ body {
 
 #fifth-menu {
   background-image: url('./assets/images/IMG5.png');
+  background-position: unset !important;
+  height: 465px !important;
 }
 
 #sixth-menu {
