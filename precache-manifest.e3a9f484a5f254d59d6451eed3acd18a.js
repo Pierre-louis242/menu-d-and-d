@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5505591ce3a8b9372eb5aca441de9367",
+    "revision": "98481f84fa72927283856dcc5a603652",
     "url": "/menu-d-and-d/index.html"
   },
   {
-    "revision": "8a9cc49f7db39d8d8696",
-    "url": "/menu-d-and-d/static/css/main.b8696700.chunk.css"
+    "revision": "e162538639f1178ac475",
+    "url": "/menu-d-and-d/static/css/main.1206cb3c.chunk.css"
   },
   {
-    "revision": "636bb72d7c9bde084da6",
-    "url": "/menu-d-and-d/static/js/2.d3470634.chunk.js"
+    "revision": "a923e99e77b07ee58ebd",
+    "url": "/menu-d-and-d/static/js/2.7718be17.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/menu-d-and-d/static/js/2.d3470634.chunk.js.LICENSE.txt"
+    "url": "/menu-d-and-d/static/js/2.7718be17.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8a9cc49f7db39d8d8696",
-    "url": "/menu-d-and-d/static/js/main.d9bc0016.chunk.js"
+    "revision": "e162538639f1178ac475",
+    "url": "/menu-d-and-d/static/js/main.7dc8e0b1.chunk.js"
   },
   {
     "revision": "ccd38cac2ad68f128752",
@@ -104,24 +104,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/menu-d-and-d/static/media/SHOOTER.2865e5a7.png"
   },
   {
-    "revision": "20e29ebf8535a6044a2de32018825fa7",
-    "url": "/menu-d-and-d/static/media/SOFTETALCOOL1.20e29ebf.png"
+    "revision": "fe7f8e3ba77a4c6e0b22fe6a055c1bf1",
+    "url": "/menu-d-and-d/static/media/SOFTETALCOOL1.fe7f8e3b.png"
   },
   {
-    "revision": "727c7e5a6109c2d07829716d4cf72447",
-    "url": "/menu-d-and-d/static/media/SOFTETALCOOL2.727c7e5a.png"
+    "revision": "7ded42557f62d48d030e64ec3cac77b6",
+    "url": "/menu-d-and-d/static/media/SOFTETALCOOL1_Spirits.7ded4255.png"
   },
   {
-    "revision": "51e3e907aaa032012f4b5baaa2acef30",
-    "url": "/menu-d-and-d/static/media/SOFTETALCOOL3.51e3e907.png"
+    "revision": "9fb4a006deeb1aa0d49f70e9dc59f33d",
+    "url": "/menu-d-and-d/static/media/SOFTETALCOOL2.9fb4a006.png"
   },
   {
-    "revision": "9ac48f0ab9ca58a952ddfa5767e57624",
-    "url": "/menu-d-and-d/static/media/SOFTETALCOOL4.9ac48f0a.png"
+    "revision": "1a622c4aff76b439b02b6b458f017067",
+    "url": "/menu-d-and-d/static/media/SOFTETALCOOL3.1a622c4a.png"
   },
   {
-    "revision": "f60864d7c46fac8908607e2014593023",
-    "url": "/menu-d-and-d/static/media/SOFTETALCOOL5.f60864d7.png"
+    "revision": "623ee8f3030c27c15092cb3f99be5f45",
+    "url": "/menu-d-and-d/static/media/SOFTETALCOOL4.623ee8f3.png"
+  },
+  {
+    "revision": "ab0ae3a97ff279b643dd91f95edb6ba1",
+    "url": "/menu-d-and-d/static/media/SOFTETALCOOL5.ab0ae3a9.png"
   },
   {
     "revision": "8b89443b4aef038d36088467be7b3bf5",
