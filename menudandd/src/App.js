@@ -1,10 +1,12 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 
 import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
 
 import FoodMenu from './menu-food/FoodMenu';
 import DrinkMenu from './menu-drink/DrinkMenu';
 import WinesMenu from './menu-wines/WinesMenu';
+import SoftsMenu from './menu-drink/SoftsMenu';
+import SpiritsMenu from './menu-drink/SpiritsMenu';
 
 import './App.css';
 
@@ -14,14 +16,9 @@ import './App.css';
 
 function App(props) {
 
-  // const [isMenuOpen, setIsMenuOpen] = useState(false);
- 
-
-  // useEffect(() => props.history.listen(() => {
-  //   setIsMenuOpen(false);
-  // }));
-
-
+  const scrollTop = () =>{
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  };
 
   return (
     <Router>
@@ -32,25 +29,42 @@ function App(props) {
             <li>
               <Link className='link-navbar' to='/'>Food</Link>
             </li>
-            <li>
-              <Link className='link-navbar' to='/drinks'>Drinks</Link>
-            </li>
+            <div className='sep-nav'>|</div>
             <li>
               <Link className='link-navbar' to='/wines'>Wines</Link>
             </li>
+            <div className='sep-nav'>|</div>
+            <li>
+              <Link className='link-navbar' to='/cocktails'>Cocktails</Link>
+            </li>
+            <div className='sep-nav'>|</div>
+            <li>
+              <Link className='link-navbar' to='/softs'>Softs</Link>
+            </li>
+            <div className='sep-nav'>|</div>
+            <li>
+              <Link className='link-navbar' to='/spirits'>Spirits</Link>
+            </li>
           </ul>
+          </header>
           <div>
             <Switch>
               <Route exact path='/' component={FoodMenu}/>
-              <Route exact path='/drinks' component={DrinkMenu}/>
               <Route exact path='/wines' component={WinesMenu}/>
+              <Route exact path='/cocktails' component={DrinkMenu}/>
+              <Route exact path='/softs' component={SoftsMenu}/>
+              <Route exact path='/spirits' component={SpiritsMenu}/>
             </Switch>
           </div>
-        </header>
         
-        {/* <div className="App-content">
-          <FoodMenu />
-        </div> */}
+        <footer className='footer-menu'>
+          <div className='corto-maltese-quote'>"Ce serait bon de vivre une fable"
+            <br/>
+            <p>- Corto Maltese</p>
+          </div>
+          <div className='sep-footer-elements'></div>
+          <button className='button-back-to-top' onClick={scrollTop}>TOP &#128770;</button>
+        </footer>
       </div>
     </Router>
   );

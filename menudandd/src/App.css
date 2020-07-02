@@ -1,13 +1,9 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-
 body {
   height: 100vh;
-  background-color: black;
+  background: rgb(3,3,3);
+  background: -webkit-gradient(linear, left top, right top, color-stop(8%, rgba(3,3,3,1)), color-stop(28%, rgba(0,0,0,1)), color-stop(94%, rgba(24,24,24,1)));
+  background: -o-linear-gradient(left, rgba(3,3,3,1) 8%, rgba(0,0,0,1) 28%, rgba(24,24,24,1) 94%);
+  background: linear-gradient(90deg, rgba(3,3,3,1) 8%, rgba(0,0,0,1) 28%, rgba(24,24,24,1) 94%);
 }
 
 .App {
@@ -142,7 +138,7 @@ body {
 }
 
 .link-navbar {
-  font-size: 1rem;
+  font-size: 0.75rem;
   text-decoration: none;
   color: white;
   font-family: 'Nothing You Could Do', cursive;
@@ -227,29 +223,42 @@ body {
 
 #seventh-drinks {
   background-image: url('./assets/images/SHOOTER/SHOOTER.png');
+  background-position-y: 50px !important;
 }
 
 #eighth-drinks {
   background-image: url('./assets/images/SOFTSETALCOOL/SOFTETALCOOL1.png');
   border-bottom: none !important;
+  background-position-y: 50px;
 }
 
 #ninth-drinks {
-  background-image: url('./assets/images/SOFTSETALCOOL/SOFTETALCOOL2.png');
+  background-image: url('./assets/images/SOFTSETALCOOL/SOFTETALCOOL1_Spirits.png');
   border-bottom: none !important;
+  background-position-y: 50px;
+  height: 290px;
 }
 
 #tenth-drinks {
-  background-image: url('./assets/images/SOFTSETALCOOL/SOFTETALCOOL3.png');
+  background-image: url('./assets/images/SOFTSETALCOOL/SOFTETALCOOL2.png');
   border-bottom: none !important;
+  height: 480px !important;
+  background-position: unset !important;
 }
 
 #eleventh-drinks {
   background-image: url('./assets/images/SOFTSETALCOOL/SOFTETALCOOL4.png');
   border-bottom: none !important;
+  background-position: unset !important;
+  height: 445px !important;
 }
 
 #twelveth-drinks {
+  background-image: url('./assets/images/SOFTSETALCOOL/SOFTETALCOOL3.png');
+  border-bottom: none !important;
+}
+
+#thirtheenth-drinks {
   background-image: url('./assets/images/SOFTSETALCOOL/SOFTETALCOOL5.png');
   border-bottom: none !important;
 }
@@ -257,9 +266,85 @@ body {
 #separation-cocktail {
   background-image: url('./assets/images/SEPARATION_CATEGORY/SEP1.png');
   border-bottom: none !important;
+  height: 200px !important;
 }
 
 #separation-soft {
   background-image: url('./assets/images/SEPARATION_CATEGORY/SEP2.png');
   border-bottom: none !important;
 }
+
+.sep-nav {
+  color: whitesmoke;
+}
+
+.footer-menu {
+  background: rgb(3,3,3);
+  background: -webkit-gradient(linear, left top, right top, color-stop(8%, rgba(3,3,3,1)), color-stop(28%, rgba(0,0,0,1)), color-stop(94%, rgba(24,24,24,1)));
+  background: -o-linear-gradient(left, rgba(3,3,3,1) 8%, rgba(0,0,0,1) 28%, rgba(24,24,24,1) 94%);
+  background: linear-gradient(90deg, rgba(3,3,3,1) 8%, rgba(0,0,0,1) 28%, rgba(24,24,24,1) 94%);
+  height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.corto-maltese-quote {
+  color: whitesmoke;
+  font-family: 'Nothing You Could Do', cursive;
+  width: 40%;
+  font-size: 14px;
+}
+
+.corto-maltese-quote p {
+  text-align: right;
+  margin: 0;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.sep-footer-elements {
+  height: 60%;
+  width: 0.5px;
+  background-color: whitesmoke;
+}
+
+.button-back-to-top {
+  height: 5vh;
+  margin-right: 10vw;
+  background-color: transparent;
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+  border-radius: 4px;
+  font-family: 'Nothing You Could Do', cursive;
+  cursor: pointer;
+  -webkit-animation: fadeIn 0.3s;
+          animation: fadeIn 0.3s;
+  -webkit-transition: opacity 0.4s;
+  -o-transition: opacity 0.4s;
+  transition: opacity 0.4s;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+} 
