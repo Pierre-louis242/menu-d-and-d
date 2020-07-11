@@ -121,7 +121,7 @@ body {
 
 .menu-header {
   background-color: black;
-  height: 10vh;
+  height: 12vh;
 }
 
 .menu-list {
@@ -152,6 +152,13 @@ body {
   text-decoration: none;
   color: whitesmoke;
   border-bottom: 0.5px solid white;
+}
+
+
+/* IMG FOR CIGARS */
+#cigars {
+  background-image: url('./assets/images/CIGARES/CIGARES.png');
+  background-position-y: 50px;
 }
 
 

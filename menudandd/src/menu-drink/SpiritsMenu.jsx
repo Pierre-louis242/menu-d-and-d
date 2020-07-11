@@ -3,6 +3,8 @@ import React from 'react'
 const SpiritsMenu = () => {
     return (
         <div className="container-menu-drink">
+            <div className='menu' id='cigars'>
+            </div>
             <div className='menu' id='ninth-drinks'>
             </div>
             <div className='menu' id='tenth-drinks'>

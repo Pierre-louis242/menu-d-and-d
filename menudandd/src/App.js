@@ -43,7 +43,7 @@ function App(props) {
             </li>
             <div className='sep-nav'>|</div>
             <li>
-              <Link className='link-navbar' to='/spirits'>Spirits</Link>
+              <Link className='link-navbar' to='/spirits'>Cigars <br/> & <br/> Spirits</Link>
             </li>
           </ul>
           </header>
